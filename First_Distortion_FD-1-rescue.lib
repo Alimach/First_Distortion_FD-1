@@ -1,0 +1,155 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 3PDT_1-My_switch-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue
+#
+DEF 3PDT_1-My_switch-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue S 0 0 Y N 3 L N
+F0 "S" 0 100 50 H V C CNN
+F1 "3PDT_1-My_switch-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue" 0 -350 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 0 -200 0 -150 N
+P 2 0 1 0 0 0 0 -50 N
+X 1 1 200 0 200 L 50 50 1 1 P
+X 2 2 -200 -100 200 R 50 50 1 1 P
+X 3 3 200 -200 200 L 50 50 1 1 P
+X 4 4 200 0 200 L 50 50 2 1 P
+X 5 5 -200 -100 200 R 50 50 2 1 P
+X 6 6 200 -200 200 L 50 50 2 1 P
+X 7 7 200 0 200 L 50 50 3 1 P
+X 8 8 -200 -100 200 R 50 50 3 1 P
+X 9 9 200 -200 200 L 50 50 3 1 P
+ENDDRAW
+ENDDEF
+#
+# CON-Connector_Generic_GOST-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue
+#
+DEF ~CON-Connector_Generic_GOST-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue X 0 0 N N 1 F N
+F0 "X" -250 100 79 H V L CNN
+F1 "CON-Connector_Generic_GOST-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue" -200 -100 79 H I C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" -250 -100 60 H I C CNN
+F4 "NAME" -300 0 79 H V R CNN "PIN"
+$FPLIST
+ SolderWirePad_single_*
+$ENDFPLIST
+DRAW
+C -200 0 30 0 1 0 F
+X ~ 1 0 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_2-Alimach_Conn-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue
+#
+DEF Conn_2-Alimach_Conn-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue XP 0 40 Y Y 1 F N
+F0 "XP" 400 200 60 H V C CNN
+F1 "Conn_2-Alimach_Conn-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue" 400 100 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S 200 -50 350 -150 0 1 0 N
+S 200 50 350 -50 0 1 0 N
+S 350 -50 650 -150 0 1 0 N
+S 350 50 650 -50 0 1 0 N
+X 1 1 0 0 200 R 50 50 1 1 P
+X 2 2 0 -100 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_3-Alimach_Conn-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue
+#
+DEF Conn_3-Alimach_Conn-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue XP 0 40 Y Y 1 F N
+F0 "XP" 400 200 60 H V C CNN
+F1 "Conn_3-Alimach_Conn-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue" 400 100 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S 200 -150 350 -250 0 1 0 N
+S 200 -50 350 -150 0 1 0 N
+S 200 50 350 -50 0 1 0 N
+S 350 -150 650 -250 0 1 0 N
+S 350 -50 650 -150 0 1 0 N
+S 350 50 650 -50 0 1 0 N
+X 1 1 0 0 200 R 50 50 1 1 P
+X 2 2 0 -100 200 R 50 50 1 1 P
+X 3 3 0 -200 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_6-Alimach_Conn-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue
+#
+DEF Conn_6-Alimach_Conn-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue X 0 40 N Y 1 F N
+F0 "X" 400 200 60 H V C CNN
+F1 "Conn_6-Alimach_Conn-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue" 400 100 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S 200 -450 350 -550 0 1 0 N
+S 200 -350 350 -450 0 1 0 N
+S 200 -250 350 -350 0 1 0 N
+S 200 -150 350 -250 0 1 0 N
+S 200 -50 350 -150 0 1 0 N
+S 200 50 350 -50 0 1 0 N
+S 350 -450 650 -550 0 1 0 N
+S 350 -350 650 -450 0 1 0 N
+S 350 -250 650 -350 0 1 0 N
+S 350 -150 650 -250 0 1 0 N
+S 350 -50 650 -150 0 1 0 N
+S 350 50 650 -50 0 1 0 N
+X 1 1 0 0 200 R 50 50 1 1 P
+X 2 2 0 -100 200 R 50 50 1 1 P
+X 3 3 0 -200 200 R 50 50 1 1 P
+X 4 4 0 -300 200 R 50 50 1 1 P
+X 5 5 0 -400 200 R 50 50 1 1 P
+X 6 6 0 -500 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GND_AAV-AAV_SCH-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue
+#
+DEF ~GND_AAV-AAV_SCH-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue #PWR 0 1 N N 1 F P
+F0 "#PWR" 0 100 59 H I C CNN
+F1 "GND_AAV-AAV_SCH-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue" 0 -100 59 H I C CNN
+F2 "" 0 0 59 H I C CNN
+F3 "" 0 0 59 H I C CNN
+DRAW
+P 2 0 1 0 -50 -50 50 -50 N
+X GND 1 0 0 50 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# OPAMP_uA741-AAV_SCH-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue
+#
+DEF ~OPAMP_uA741-AAV_SCH-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue D 0 40 Y Y 2 L N
+F0 "D" 500 300 50 H V C CNN
+F1 "OPAMP_uA741-AAV_SCH-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue" 500 200 60 H I C CNN
+F2 "" 400 250 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S 200 100 800 -300 1 1 0 N
+S 200 100 800 -300 2 1 0 N
+P 4 0 1 0 450 50 450 -50 550 0 450 50 N
+P 4 0 1 0 450 50 450 -50 550 0 450 50 N
+P 4 0 1 0 450 50 450 -50 550 0 450 50 N
+P 2 1 1 0 400 100 400 -300 N
+P 2 1 1 0 600 -100 800 -100 N
+P 2 1 1 0 600 100 600 -300 N
+P 2 2 1 0 400 100 400 -300 N
+X NC 1 1000 -150 197 L 50 50 1 1 P
+X -IN 2 0 -200 197 R 50 50 1 1 P I
+X +IN 3 0 0 197 R 50 50 1 1 P
+X NC 5 1000 -250 197 L 50 50 1 1 P
+X OUT 6 1000 0 200 L 50 50 1 1 P
+X V- 4 0 -200 200 R 50 50 2 1 P
+X V+ 7 0 0 200 R 50 50 2 1 P
+X OUT 1 1000 0 200 L 50 50 1 2 P
+X -IN 2 0 0 200 R 50 50 1 2 P I
+X +IN 3 0 -200 200 R 50 50 1 2 P
+X +IN 5 0 -200 200 R 50 50 2 2 P
+X -IN 6 0 0 200 R 50 50 2 2 P I
+X OUT 7 1000 0 200 L 50 50 2 2 P
+ENDDRAW
+ENDDEF
+#
+#End Library
